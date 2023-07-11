@@ -1,0 +1,37 @@
+.fab-input {
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+}
+
+.fab-input input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.fab-input input[type="text"]:focus {
+  border-color: #ff8c00;
+  box-shadow: 0 0 5px #ff8c00;
+}
+
+.fab-input::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url("search-icon.png"); /* Bild für den Suchsymbol-Icon */
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.5;
+}
+
+.navbar {
+  gap: 5rem;
+}
