@@ -41,4 +41,4 @@ app.listen(PORT, () => {
   console.log(`Server ist am laufen mit diesem Port${PORT}`);
 });
 
-console.log("HEllo World");
+console.log("Hello World");
